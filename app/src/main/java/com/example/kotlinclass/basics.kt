@@ -31,7 +31,7 @@ fun main(){
     println(e)
     println(f)
     println(i)
-    println (h)
+    println(h)
 
 
     fun main(args: Array<String>) {
@@ -42,20 +42,20 @@ fun main(){
         println("The third Person age is " + age[2])
         println("*****************************")
         var name = arrayOf("ram", "shyam", "Hari")
-        name[1] = "Niraj"
+        name[1] = "Sabin"
         println("The first Person name is " + name[0])
         println("The second Person name is " + name[1])
         println(name.size)
 
-        var Name = arrayListOf<String>("Niraj", "rojan", "shuvayu")
-        Name.add("aayush")
-        Name.add(4, "Sabin")
-        Name.remove("shuvayu")
+        var Name = arrayListOf<String>("Sabin", "Rojan", "shuvayu")
+        Name.add("Aayush")
+        Name.add(4, "Niraj")
+        Name.remove("Rojan")
         Name.removeAt(0)
         println(Name)
     }
-}
-fun main(){
+
+
 // Immutable List
     val lst = listOf("mango", "orange", "banana")
     println("Mutable list")
@@ -85,8 +85,7 @@ fun main(){
         println("All values : ${countriesCapitals.values}")
         println("Capital of Nepal is : ${countriesCapitals["Nepal"]}")
     }
-}
-fun main() {
+
     var num1: Double = 12.4
     var num2: Double = 4.0
     var result: Double = 0.0
